@@ -1,0 +1,13 @@
+Features added:
+* Recording
+  * Initial values
+  * Download file
+  * Specific output value
+
+* `shiny::exportTestValues()`
+  * See updated values
+
+* Minimal Recording
+
+* Tweak recording to use `get_value()` and expectation methods
+  * This approach is ideal
