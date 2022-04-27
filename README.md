@@ -12,7 +12,7 @@ https://hopin.com/events/shinyconference2022
 http://schloerke.com/presentation-2022-04-27-appsilon-shinytest2/
 
 * PDF:
-http://schloerke.com/presentation-2022-04-27-appsilon-shinytest2/appsilon-shinytst2.pdf
+http://schloerke.com/presentation-2022-04-27-appsilon-shinytest2/appsilon-shinytest2.pdf
 
 
 ## Resources for learning more
