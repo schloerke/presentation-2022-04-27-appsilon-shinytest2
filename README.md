@@ -17,7 +17,6 @@ http://schloerke.com/presentation-2022-04-27-appsilon-shinytest2/appsilon-shinyt
 
 ## Resources for learning more
 
-[:octocat:](https://github.com/rstudio/shinytest2/)
 * [`{shinytest2}`](https://rstudio.github.io/shinytest2/) [:octocat:](https://github.com/rstudio/shinytest2): Regression Testing for Shiny Applications
 
 * [`{testthat}`](https://testthat.r-lib.org/) [:octocat:](https://github.com/r-lib/testthat/): Unit Testing for R
