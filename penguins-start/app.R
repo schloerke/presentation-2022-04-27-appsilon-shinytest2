@@ -5,8 +5,16 @@ library(dplyr)
 ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
-      checkboxGroupInput(inputId = "penguin_species", label = "Filter by species: ", choices = c("Adelie", "Chinstrap", "Gentoo"), selected = c("Adelie", "Chinstrap", "Gentoo")),
-      downloadButton(outputId = "download_csv", label = "Download CSV")
+      checkboxGroupInput(
+        inputId = "penguin_species",
+        label = "Filter by species: ",
+        choices = c("Adelie", "Chinstrap", "Gentoo"),
+        selected = c("Adelie", "Chinstrap", "Gentoo")
+      ),
+      downloadButton(
+        outputId = "download_csv",
+        label = "Download CSV"
+      )
     ),
 
     mainPanel(
@@ -30,7 +38,10 @@ server <- function(input, output, session) {
       select(species, island, bill_length_mm, bill_depth_mm)
   })
   # Number
-  penguin_count <- reactive({ nrow(filtered_penguins()) })
+  penguin_count <- reactive({
+    req(input$penguin_species)
+    nrow(filtered_penguins())
+  })
   output$penguin_count <- renderUI(penguin_count())
 
   # Plot
