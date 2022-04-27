@@ -12,7 +12,7 @@ ui <- fluidPage(
     mainPanel(
       tags$h1(
         tags$img(src = "https://allisonhorst.github.io/palmerpenguins/logo.png", height = "40px"),
-        htmlOutput(outputId = "num", inline = TRUE),
+        htmlOutput(outputId = "penguin_count", inline = TRUE),
         " Palmer Penguins"
       ),
       plotOutput(outputId = "penguin_scatterplot", height = "200px"),
@@ -30,8 +30,8 @@ server <- function(input, output, session) {
       select(species, island, bill_length_mm, bill_depth_mm)
   })
   # Number
-  num <- reactive({ nrow(filtered_penguins()) })
-  output$num <- renderUI(num())
+  penguin_count <- reactive({ nrow(filtered_penguins()) })
+  output$penguin_count <- renderUI(penguin_count())
 
   # Plot
   output$penguin_scatterplot <- renderPlot({

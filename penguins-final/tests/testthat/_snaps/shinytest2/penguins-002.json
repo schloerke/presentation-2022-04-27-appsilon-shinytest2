@@ -434,7 +434,7 @@
     ]
   },
   "output": {
-    "num": {
+    "penguin_count": {
       "html": "344",
       "deps": [
 
@@ -2022,6 +2022,6 @@
         18.7
       ]
     },
-    "num": 344
+    "penguin_count": 344
   }
 }
