@@ -1,9 +1,9 @@
 # `{shinytest2}`: Regression Testing for Shiny Applications
 
 ## Event
-2022 Appsilon Shiny Conference
-April 27, 2022
-https://appsilon.com/shiny-conference/
+2022 Appsilon Shiny Conference <br />
+April 27, 2022 <br />
+https://appsilon.com/shiny-conference/ <br />
 https://hopin.com/events/shinyconference2022
 
 ## Slides
