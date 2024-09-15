@@ -14,6 +14,8 @@ http://schloerke.com/presentation-2022-04-27-appsilon-shinytest2/
 * PDF:
 http://schloerke.com/presentation-2022-04-27-appsilon-shinytest2/appsilon-shinytest2.pdf
 
+* Recording: https://www.youtube.com/watch?v=EOVPBN5o8F8&list=PLexAKolMzPcrYjGA1PULfm7-P12qjKmPb&index=8&t=13s&pp=iAQB
+
 
 ## Resources for learning more
 
